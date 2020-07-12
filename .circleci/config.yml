@@ -8,10 +8,10 @@ jobs: # basic units of work in a run
       - setup_remote_docker
       - checkout
       - run:
-          name: Run unit tests for cs50 week
+          name: Run unit tests for cs50 week 2 - readability
           # Store the results of our tests in the $TEST_RESULTS directory
           command: |
-            cd week2
+            cd week2/readability
             go test -v
 
 workflows:
